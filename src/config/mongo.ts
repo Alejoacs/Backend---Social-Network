@@ -6,14 +6,14 @@ if (!uri) {
 }
 const client = new MongoClient(uri)
 
-export const db = client.db('social network')
+export const db = client.db('social_network')
 
 export const connectToDatabase = async () => {
  try {
   await client.connect()
-  console.log('☑️ Conectado a MongoDB')
+  console.log('☑️ Connected to MongoDB successfully')
  } catch (error) {
-  console.error('✖️ Error al conectar a MongoDB:', error)
+  console.error('✖️ Not connected to MongoDB:', error)
   process.exit(1)
  }
 }
