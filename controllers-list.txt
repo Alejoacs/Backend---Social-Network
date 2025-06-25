@@ -1,0 +1,58 @@
+Controladores sugeridos para la red social
+
+1. UserController
+- Registrar usuario
+- Iniciar sesión
+- Obtener perfil de usuario
+- Editar perfil
+- Cambiar contraseña
+- Buscar usuarios
+- Seguir/dejar de seguir usuario
+- Ver seguidores/seguidos
+- Cambiar avatar
+- Verificar cuenta
+- Cambiar privacidad de cuenta
+
+2. PostController
+- Crear publicación
+- Obtener publicaciones (feed, por usuario, por ID)
+- Editar publicación
+- Eliminar publicación
+- Dar/retirar like a publicación
+- Guardar publicación (bookmark)
+- Obtener publicaciones guardadas
+
+3. CommentController
+- Agregar comentario a publicación
+- Editar comentario
+- Eliminar comentario
+- Dar/retirar like a comentario
+- Obtener comentarios de una publicación
+
+4. StoryController
+- Crear historia
+- Ver historias de usuarios seguidos
+- Ver historia individual
+- Marcar historia como vista
+- Eliminar historia
+
+5. NotificationController
+- Obtener notificaciones del usuario
+- Marcar notificación como leída
+- Eliminar notificación
+
+6. MessageController
+- Enviar mensaje privado
+- Obtener conversaciones
+- Obtener mensajes de una conversación
+- Marcar mensaje como leído
+
+7. BookmarkController
+- Guardar publicación
+- Eliminar publicación guardada
+- Obtener publicaciones guardadas
+
+8. FollowRequestController (si usas cuentas privadas)
+- Enviar solicitud de seguimiento
+- Aceptar/rechazar solicitud
+- Ver solicitudes pendientes
